@@ -1,0 +1,23 @@
+
+/* This css file is used for all the html pages.
+ This was tried out for a study purpose.It was not a requirement.
+ */
+ 
+form {
+	   text-align:center; 
+	   /* margin: 0 auto; width: 600px ; */
+	   }
+
+body{
+	background-color: #5F9EA0; 
+}
+table, th, td {
+	text-align:center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+th, td {
+    padding: 5px;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE weblogic-web-app PUBLIC "-//BEA Systems, Inc.//DTD Web Application 8.1//EN" "http://www.bea.com/servers/wls810/dtd/weblogic810-web-jar.dtd">
+
+<wls:weblogic-web-app xmlns:wls="http://xmlns.oracle.com/weblogic/weblogic-web-app" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd http://xmlns.oracle.com/weblogic/weblogic-web-app http://xmlns.oracle.com/weblogic/weblogic-web-app/1.4/weblogic-web-app.xsd">
+    <wls:weblogic-version>12.1.1</wls:weblogic-version>
+    <wls:context-root>com.sheltonmachines.service</wls:context-root>
+    
+  <!-- Virtual directory mapping to map the image path to the physical memory --> 
+    <wls:virtual-directory-mapping>
+           <wls:local-path>C:\Users\Malu</wls:local-path>
+               <wls:url-pattern>Pictures/*</wls:url-pattern>
+    </wls:virtual-directory-mapping>
+    
+</wls:weblogic-web-app>
